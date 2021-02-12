@@ -1,0 +1,14 @@
+{
+  "name": "azure-eventhub-read",
+  "version": "0.6.0",
+  "description": "Print out messages from Azure Event Hub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node eh-print-messages.js"
+  },
+  "author": "MA-HA",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/event-hubs": "^2.1.3"
+  }
+}
