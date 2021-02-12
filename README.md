@@ -3,11 +3,11 @@ Helper: Just read and dumps messages from Azure Event Hub
 
 # Usage:
 
-Prepage:
+Prepare:
 
-   npm install @azure/event-hubs
-   export EH_CONN_STR=get_connection_string_from_azure
-   export EH_NAME=the_eh_name
+    npm install
+    export EH_CONN_STR=get_connection_string_from_azure
+    export EH_NAME=the_eh_name
 
 Dump log records:
 
