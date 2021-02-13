@@ -28,7 +28,7 @@ async function run() {
       const rcvOpts =  { eventPosition: EventPosition.fromEnqueuedTime( Date.now() ) }
       receiveHandler = eventHub.receive( partition, onMessage, onErr, rcvOpts )  
     }
-    console.log( 'EH: Ready. Collecting stats .... (print out every 60 sec(' )
+    console.log( 'EH: Ready. Collecting stats .... (print out every 60 sec)' )
   } catch ( exc ) { 
     console.error( 'Exception in MAIN run()', exc ) 
     process.exit( 0 )
